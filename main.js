@@ -8,6 +8,8 @@ const { Human } = require('./classInfo')
 const p1 = new Point(1, 2)
 const p2 = new Point(10, 11)
 
+p1.distance(p2)
+
 // ClassInfo.js
 const alice = new Human('Alice', 'Liddell', 28, true, ['js', 'html', 'python'])
 const bob = new Human('Bob', 'Lemon', 30, true, ['js', 'html', 'python'])
