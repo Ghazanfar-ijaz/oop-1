@@ -10,6 +10,8 @@ class Point {
     return this.x === point.x && this.y === point.y ? true : false
   }
   distance(point) {
-    return
+    return Math.sqrt(Math.pow((point.x - this.x), 2) + Math.pow((point.y - this.y), 2))
   }
 }
+
+exports.Point = Point
